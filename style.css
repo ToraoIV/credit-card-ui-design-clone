@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.container {
+    position: relative;
+    background-image: url(images/black-370118_1280.png);
+    background-size: cover;
+    padding: 15px 25px 25px 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 48px;
+}
+
+h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .chip {
+    width: 60px;
+}
+
+h6 {
+    color: white;
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.container .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.number {
+    margin-top: 9px;
+    font-weight: 600;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+header {
+    margin-top: 10px 50px;
+}
